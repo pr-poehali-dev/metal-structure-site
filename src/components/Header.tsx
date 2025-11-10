@@ -26,8 +26,8 @@ export default function Header() {
             <button onClick={() => scrollToSection('hero')} className="text-foreground hover:text-primary transition-colors">
               Главная
             </button>
-            <button onClick={() => scrollToSection('products')} className="text-foreground hover:text-primary transition-colors">
-              Продукция
+            <button onClick={() => scrollToSection('catalog')} className="text-foreground hover:text-primary transition-colors">
+              Каталог
             </button>
             <button onClick={() => scrollToSection('services')} className="text-foreground hover:text-primary transition-colors">
               Услуги
@@ -37,9 +37,6 @@ export default function Header() {
             </button>
             <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-primary transition-colors">
               О компании
-            </button>
-            <button onClick={() => scrollToSection('certificates')} className="text-foreground hover:text-primary transition-colors">
-              Сертификаты
             </button>
             <button onClick={() => scrollToSection('contacts')} className="text-foreground hover:text-primary transition-colors">
               Контакты
@@ -65,8 +62,8 @@ export default function Header() {
             <button onClick={() => scrollToSection('hero')} className="block w-full text-left py-2 hover:text-primary">
               Главная
             </button>
-            <button onClick={() => scrollToSection('products')} className="block w-full text-left py-2 hover:text-primary">
-              Продукция
+            <button onClick={() => scrollToSection('catalog')} className="block w-full text-left py-2 hover:text-primary">
+              Каталог
             </button>
             <button onClick={() => scrollToSection('services')} className="block w-full text-left py-2 hover:text-primary">
               Услуги
@@ -76,9 +73,6 @@ export default function Header() {
             </button>
             <button onClick={() => scrollToSection('about')} className="block w-full text-left py-2 hover:text-primary">
               О компании
-            </button>
-            <button onClick={() => scrollToSection('certificates')} className="block w-full text-left py-2 hover:text-primary">
-              Сертификаты
             </button>
             <button onClick={() => scrollToSection('contacts')} className="block w-full text-left py-2 hover:text-primary">
               Контакты
